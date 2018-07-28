@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: sadf - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Lenovo\AppData\Local\Temp\RSPBF53.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/sadf.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Lenovo\Desktop\sadf.c"
+]
+Creating command line "cl.exe @C:\Users\Lenovo\AppData\Local\Temp\RSPBF53.tmp" 
+Creating temporary file "C:\Users\Lenovo\AppData\Local\Temp\RSPBF54.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/sadf.pdb" /debug /machine:I386 /out:"Debug/sadf.exe" /pdbtype:sept 
+.\Debug\sadf.obj
+]
+Creating command line "link.exe @C:\Users\Lenovo\AppData\Local\Temp\RSPBF54.tmp"
+<h3>Output Window</h3>
+Compiling...
+sadf.c
+C:\Users\Lenovo\Desktop\sadf.c(7) : warning C4013: 'judge' undefined; assuming extern returning int
+C:\Users\Lenovo\Desktop\sadf.c(8) : warning C4013: 'total' undefined; assuming extern returning int
+C:\Users\Lenovo\Desktop\sadf.c(23) : warning C4101: 'k' : unreferenced local variable
+C:\Users\Lenovo\Desktop\sadf.c(20) : warning C4716: 'judge' : must return a value
+C:\Users\Lenovo\Desktop\sadf.c(47) : warning C4716: 'total' : must return a value
+C:\Users\Lenovo\Desktop\sadf.c(26) : warning C4700: local variable 'y' used without having been initialized
+C:\Users\Lenovo\Desktop\sadf.c(26) : warning C4700: local variable 'm' used without having been initialized
+C:\Users\Lenovo\Desktop\sadf.c(26) : warning C4700: local variable 'd' used without having been initialized
+Linking...
+
+
+
+<h3>Results</h3>
+sadf.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
